@@ -1,0 +1,11 @@
+ -> ParserApp.main() -> AC.test()
+ -> ParserApp.main() -> AC.test() -> BD.bd1()
+ -> ParserApp.main() -> AC.test() -> BD.bd1() -> BD.bd2()
+ -> ParserApp.main() -> AC.test() -> BD.bd1() <- BD.bd2()
+ -> ParserApp.main() -> AC.test() <- BD.bd1()
+ -> ParserApp.main() -> AC.test() -> BD.bd3()
+ -> ParserApp.main() -> AC.test() -> BD.bd3() -> BD.bd4()
+ -> ParserApp.main() -> AC.test() -> BD.bd3() <- BD.bd4()
+ -> ParserApp.main() -> AC.test() <- BD.bd3()
+ -> ParserApp.main() <- AC.test()
+

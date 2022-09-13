@@ -1,0 +1,14 @@
+{ "class": "GraphLinksModel",
+  "nodeDataArray": [
+    {"key":"a","loc":"-440 40","text":"","details":"","size":"240 300"},
+    {"key":"b","loc":"-300 -90","text":"","details":"","size":"10 10"},
+    {"key":"c","loc":"-300 -50","text":"","details":"","size":"10 10"},
+    {"key":"d","loc":"-300 -10","text":"","details":"","size":"40 40"},
+    {"key":"e","loc":"-580 -90","text":"","details":"","size":"10 10"},
+    {"key":"f","loc":"10 40","text":"","details":"","size":"240 300"},
+    {"key":"g","loc":"150 -90","text":"","details":"","size":"10 10"},
+    {"key":"h","loc":"150 -50","text":"","details":"","size":"10 10"},
+    {"key":"i","loc":"150 -10","text":"","details":"","size":"40 40"},
+    {"key":"j","loc":"-130 -90","text":"","details":"","size":"10 10"}
+  ],
+  "linkDataArray": [{"from":"a","to":"b","points":[-280,-90,-150,-90]}]}

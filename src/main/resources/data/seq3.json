@@ -1,0 +1,121 @@
+{
+  "classA": "go.GraphLinksModel",
+  "nodeDataArray": [
+    {
+      "key": "AC.test()",
+      "text": "AC.test()",
+      "isGroup": true,
+      "loc": "100 0",
+      "duration": 9
+    },
+    {
+      "group": "AC.test()",
+      "start": 1,
+      "duration": 8
+    },
+    {
+      "key": "BD.bd1()",
+      "text": "BD.bd1()",
+      "isGroup": true,
+      "loc": "200 0",
+      "duration": 9
+    },
+    {
+      "group": "BD.bd1()",
+      "start": 2,
+      "duration": 2
+    },
+    {
+      "key": "BD.bd2()",
+      "text": "BD.bd2()",
+      "isGroup": true,
+      "loc": "300 0",
+      "duration": 9
+    },
+    {
+      "group": "BD.bd2()",
+      "start": 3,
+      "duration": 0
+    },
+    {
+      "key": "BD.bd3()",
+      "text": "BD.bd3()",
+      "isGroup": true,
+      "loc": "600 0",
+      "duration": 9
+    },
+    {
+      "group": "BD.bd3()",
+      "start": 6,
+      "duration": 2
+    },
+    {
+      "key": "BD.bd4()",
+      "text": "BD.bd4()",
+      "isGroup": true,
+      "loc": "700 0",
+      "duration": 9
+    },
+    {
+      "group": "BD.bd4()",
+      "start": 7,
+      "duration": 0
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "NULL",
+      "to": "AC.test()",
+      "text": "",
+      "time": 1
+    },
+    {
+      "from": "AC.test()",
+      "to": "BD.bd1()",
+      "text": "",
+      "time": 2
+    },
+    {
+      "from": "BD.bd1()",
+      "to": "BD.bd2()",
+      "text": "",
+      "time": 3
+    },
+    {
+      "from": "BD.bd2()",
+      "to": "BD.bd1()",
+      "text": "",
+      "time": 4
+    },
+    {
+      "from": "BD.bd1()",
+      "to": "AC.test()",
+      "text": "",
+      "time": 5
+    },
+    {
+      "from": "AC.test()",
+      "to": "BD.bd3()",
+      "text": "",
+      "time": 6
+    },
+    {
+      "from": "BD.bd3()",
+      "to": "BD.bd4()",
+      "text": "",
+      "time": 7
+    },
+    {
+      "from": "BD.bd4()",
+      "to": "BD.bd3()",
+      "text": "",
+      "time": 8
+    },
+    {
+      "from": "BD.bd3()",
+      "to": "AC.test()",
+      "text": "",
+      "time": 9
+    }
+  ]
+}

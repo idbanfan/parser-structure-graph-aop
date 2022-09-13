@@ -1,0 +1,48 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [
+    {"key":"ParserApp.main()", "text":"ParserApp.main()", "isGroup":true, "loc":"0 0", "duration":9},
+    {"key":"AC.test()", "text":"AC.test()", "isGroup":true, "loc":"100 0", "duration":9},
+    {"key":"BD.bd1()", "text":"BD.bd1()", "isGroup":true, "loc":"200 0", "duration":9},
+    {"key":"BD.bd2()", "text":"BD.bd2()", "isGroup":true, "loc":"300 0", "duration":9},
+    {"key":"BD.bd3()", "text":"BD.bd3()", "isGroup":true, "loc":"400 0", "duration":9},
+    {"key":"BD.bd4()", "text":"BD.bd4()", "isGroup":true, "loc":"500 0", "duration":9},
+    {"group":"ParserApp.main()", "start":1, "duration":12},
+    {"group":"AC.test()", "start":1, "duration":6},
+    {"group":"BD.bd1()", "start":2, "duration":4},
+    {"group":"AC.test()", "start":9, "duration":3}
+  ],
+  "linkDataArray": [
+    {"from":"ParserApp.main()", "to":"AC.test()", "text":"order", "time":1},
+    {"from":"AC.test()", "to":"BD.bd1()", "text":"order food", "time":2},
+    {"from":"BD.bd1()", "to":"BD.bd2()", "text":"serve drinks", "time":3},
+    {"from":"BD.bd2()", "to":"BD.bd1()", "text":"finish cooking", "time":5},
+    {"from":"BD.bd1()", "to":"AC.test()", "text":"serve food", "time":6},
+    {"from":"AC.test()", "to":"BD.bd3()", "text":"serve food", "time":9},
+    {"from":"BD.bd3()", "to":"BD.bd4()", "text":"serve food", "time":10},
+    {"from":"BD.bd4()", "to":"BD.bd3()", "text":"serve food", "time":11},
+    {"from":"BD.bd3()", "to":"AC.test()", "text":"pay", "time":12},
+    {"from":"AC.test()", "to":"ParserApp.main()", "text":"pay", "time":13}
+  ]}
+
+key -> from -> group
+
+start = time
+dur = time2 - time1
+
+
+stack
+time
+
+"to":"ParserApp.main()", :13 当前时间,上一个from的时间
+
+{"from":"ParserApp.main()", 1
+
+
+入栈 : 记录 link , 记录 keyNode , 初始化 group:name/start
+出栈 : 记录 link , 设置 group:duration
+
+
+线程 map {
+  time,
+  root,
+}

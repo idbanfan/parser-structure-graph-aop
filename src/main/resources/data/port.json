@@ -1,0 +1,13 @@
+{ "class": "GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+    {"key":1,"name":"Api1","loc":"101 204","leftArray":[{"portColor":"#fae3d7","portId":"left0"}],"topArray":[{"portColor":"#d6effc","portId":"top0"}],"bottomArray":[{"portColor":"#ebe3fc","portId":"bottom0"}],"rightArray":[{"portColor":"#eaeef8","portId":"right0"},{"portColor":"#fadfe5","portId":"right1"}]},
+    {"key":2,"name":"Api2","loc":"332 199","leftArray":[{"portColor":"#6cafdb","portId":"left0"},{"portColor":"#66d6d1","portId":"left1"},{"portColor":"#fae3d7","portId":"left2"}],"topArray":[{"portColor":"#d6effc","portId":"top0"}],"bottomArray":[{"portColor":"#eaeef8","portId":"bottom0"},{"portColor":"#eaeef8","portId":"bottom1"},{"portColor":"#6cafdb","portId":"bottom2"}],"rightArray":[]}
+  ],
+  "linkDataArray": [
+    {"from":1,"to":2,"fromPort":"right0","toPort":"left1","points":[139,199,157,199,232.5,199,232.5,199,276,199,294,199]},
+    {"from":1,"to":2,"fromPort":"right1","toPort":"left2","points":[139,209,149,209,232.5,209,232.5,209,284,209,294,209]}
+  ]}
